@@ -13,10 +13,12 @@ import Footer from '../components/Footer';
 interface SelectedProduct {
   id: number;
   name: string;
-  price: string;
+  price: string; // خلي غير هادي ومسح "price: number"
+  originalPrice: number;
 }
 
 export default function Home() {
+// ... كمل الكود ديالك عادي
   const [selectedProduct, setSelectedProduct] = useState<SelectedProduct | null>(null);
 
   return (
