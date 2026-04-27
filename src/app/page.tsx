@@ -1,14 +1,9 @@
 "use client";
-import { useState } from "react";
-import Header from '../components/Header';
-import Hero from '../components/Hero';
-import ProductGrid from '../components/ProductGrid';
-import Testimonials from '../components/Testimonials';
-import FAQ from '../components/FAQ';
-import TrustSignals from '../components/TrustSignals';
-import CheckoutModal from '../components/CheckoutModal';
-import WhatsAppButton from '../components/WhatsAppButton';
-import Footer from '../components/Footer';
+import Testimonials from '../components/testimonials';
+import FAQ from '../components/faq';
+import Header from '../components/header';
+import Hero from '../components/hero';
+import ProductGrid from '../components/productgrid';
 
 interface SelectedProduct {
   id: number;
